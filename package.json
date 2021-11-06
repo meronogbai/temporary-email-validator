@@ -1,0 +1,19 @@
+{
+  "name": "temporary-email-validatior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meronokbay/temporary-email-validatior.git"
+  },
+  "author": "Meron Ogbai (okbaymeron@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meronokbay/temporary-email-validatior/issues"
+  },
+  "homepage": "https://github.com/meronokbay/temporary-email-validatior#readme"
+}
