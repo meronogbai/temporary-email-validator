@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/meronokbay/temporary-email-validatior/issues"
   },
-  "homepage": "https://github.com/meronokbay/temporary-email-validatior#readme"
+  "homepage": "https://github.com/meronokbay/temporary-email-validatior#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }
