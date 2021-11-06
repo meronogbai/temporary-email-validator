@@ -9,7 +9,9 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "repository": {
     "type": "git",
