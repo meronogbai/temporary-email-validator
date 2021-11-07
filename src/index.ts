@@ -1,9 +1,8 @@
-import fs from 'fs'
-import path from 'path'
+import disposableEmailDomains from './emails.json'
 
-const pathToEmailsList = path.join(__dirname, '../data/emails.txt')
-const disposableEmailDomains = fs.readFileSync(pathToEmailsList, 'utf8').split('\n')
-
+type EmailsJson = {
+  [key: string]: boolean
+}
 export function isTemporaryEmail(email: string): boolean {
-  return disposableEmailDomains.some((disposableEmail) => email.endsWith(disposableEmail))
+  return (disposableEmailDomains as EmailsJson)[email.split('@')[1]] === true
 }
