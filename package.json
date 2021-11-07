@@ -1,6 +1,6 @@
 {
   "name": "temporary-email-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check whether an email comes from a temporary email provider like Guerrilla Mail or Temp Mail.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -16,7 +16,7 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "git add -A src",
-    "postversion": "git push && git push --tags" 
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
