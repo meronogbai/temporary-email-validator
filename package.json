@@ -18,6 +18,11 @@
     "url": "git+https://github.com/meronokbay/temporary-email-validator.git"
   },
   "author": "Meron Ogbai (okbaymeron@gmail.com)",
+  "keywords": [
+    "temporary",
+    "email",
+    "validator"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/meronokbay/temporary-email-validator/issues"
