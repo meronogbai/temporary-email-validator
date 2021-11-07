@@ -1,5 +1,7 @@
 # Temporary Email Validator
 
+Check whether an email comes from a temporary email provider like Guerrilla Mail or Temp Mail.
+
 ## Install
 
 ```bash
