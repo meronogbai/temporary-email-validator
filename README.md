@@ -11,6 +11,8 @@ npm i temporary-email-validator
 ## Usage
 
 ```ts
+import {isTemporaryEmail} from 'temporary-email-provider'
+
 isTemporaryEmail('test@0-180.com') // returns true if email is temporary
 isTemporaryEmail('test@gmail.com') // returns false otherwise
 ```
